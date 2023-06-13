@@ -1,0 +1,99 @@
+.login-page1{
+    position: absolute;
+    background-image: url("https://www.pcworld.com/wp-content/uploads/2023/06/best-budget-laptops.jpg?quality=50&strip=all");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.login-page1 form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 38%;
+    margin-top: 100px;
+    background-color: rgb(168, 168, 168);
+    width:fit-content;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px 4px rgb(5, 37, 37);
+}
+
+h3{
+    color: black;
+    margin-top: -10px;
+    text-align: center;
+}
+
+form input{
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+form button{
+    width:70px;
+    height: 30px;
+    font-size: large;
+    margin-top: 2px;
+    margin-left: 110px;
+    background-color: rgb(91, 128, 128);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+button:hover{
+    color: rgb(91, 128, 128);
+    background-color: white;
+}
+
+.error{
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}
+.myclass{
+    width:70px;
+    height: 30px;
+    font-size: xx-small;
+    margin-top: 10px;
+    margin-left: 110px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 10;
+    font-size: medium;
+
+}
+.my{
+    width:70px;
+    height: 30px;
+    font-size: xx-small;
+    margin-top: 5px;
+    margin-left: 200px;
+    border-radius: 20px;
+    color: black;
+    white-space: nowrap;
+    
+
+}
+.signn{
+    color: black;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: medium;
+}
+.myclass{
+    
+    width:70px;
+    height: 30px;
+    font-size: xx-small;
+    margin-top: 5px;
+    margin-left: 80px;
+    border-radius: 20px;
+    color: black;
+    white-space: nowrap;
+}

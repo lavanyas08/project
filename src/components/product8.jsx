@@ -1,0 +1,37 @@
+import { Link } from 'react-router-dom';
+import './product1.css';
+
+const Product8= () => {
+    return (
+        
+             <div>
+            <img src="https://rukminim1.flixcart.com/image/416/416/xif0q/computer/9/5/o/-original-imagp8xzapemzquv.jpeg?q=70" alt= "" className="apple"></img>
+            <div className='ap'>
+             <h1 className="apple1"></h1>
+             <h5 className="apple10">RATING:4.5★</h5>
+             <p className="apple2">HP Core i5 12th Gen - (16 GB/512 GB SSD/Windows 11 Home) 15-eg2091TU Thin and Light Laptop  (15.6 Inch, Natural Silver, 1.74 Kg, With MS Office)</p>
+            <h1 className="apple3">HP Core i5 12th Gen</h1>
+            <h1 className="apple3">Features : General</h1>
+            <p className="apple2">SALES PACKAGE: Laptop, Power Adaptor, User Guide, Warranty Documents</p>
+            <p className="apple2">Model Number: 15-eg2091TU</p>
+            <p className="apple3">Model Name: 15-eg2091T</p>
+            <p className="apple2">Series: Intel</p> 
+            <p className="apple2">Color: Natural Silver</p>
+            <p className="apple2">Type: Thin and Light Laptop</p>
+            <p className="apple2">MS Office Provided: Yes</p>
+            <h1 className="apple3">Features : Memory & Others</h1>
+            <p className="apple2">Processor Brand: Intel</p> 
+            <p className="apple2">Processor Name: Core i5</p>
+            <p className="apple2">Processor Generation: 12th Gen</p> 
+            <p className="apple2">SSD Capacity: 512 GB</p> 
+            <p className="apple2">RAM: 16 GB</p> 
+            <p className="apple2">Graphic Processor: Intel Integrated Iris Xe</p> 
+            <p className="apple2">Operating System: Windows 11 Home</p> 
+            <br></br>
+            
+            </div>
+            <button  className="rem">Buy Now</button>
+             </div>
+             );
+             }
+ export default Product8;

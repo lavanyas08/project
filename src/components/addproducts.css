@@ -1,0 +1,69 @@
+.sign{
+    position: absolute;
+    background-image: url("https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.sign form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 37%;
+    margin-top: 30px;
+    background-color:white;
+    width:fit-content;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h3{
+    color: black;
+    margin-top: 10px;
+    
+}
+
+form input{
+    margin: 10px;
+    font-size: 15px;
+    height: 30px;
+    width: 270px;
+    border-radius: 10px;
+}
+
+form .bu{
+    width:70px;
+    height: 50px;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 110px;
+    background-color:  black;
+    border-radius: 10px;
+    color: white;
+}
+body {
+    overflow: scroll; /* or overflow: scroll; */
+  }
+  
+.bu:hover{
+    color: rgb(91, 128, 128);
+    background-color: white;
+}
+
+.error{
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}
+.class{
+    width:70px;
+    height: 30px;
+    font-size: xx-small;
+    margin-top: 5px;
+    margin-left: 70px;
+    border-radius: 20px;
+    color: black;
+    white-space: nowrap;
+}

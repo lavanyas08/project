@@ -1,0 +1,52 @@
+.h {
+  position: absolute;
+  background-image: url("https://www.rappler.com/tachyon/2022/08/laptop-choices-students-August-31-2022.jpg?resize=1280%2C900&zoom=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: fit-content;
+  width: 100%;
+}
+
+p {
+  text-align: center;
+  color: #ccc;
+  font-style: oblique;
+}
+
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+  max-width: 800px; /* Adjust this value based on your needs */
+  margin: 0 auto; /* Center the container */
+}
+
+.continfo {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.continfo img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 3px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+.continfo h3 {
+  margin-top: 10px;
+}
+
+.continfo:hover {
+  box-shadow: 2px 2px 2px 2px #ccc;
+  text-shadow: 2px 2px 5px #ccc;
+}

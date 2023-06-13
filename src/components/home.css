@@ -1,0 +1,53 @@
+.home{
+    position:absolute;
+    background-image: url("https://cdn.techjuice.pk/wp-content/uploads/2022/09/laptop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 101.5vh;
+    width: 100%;
+}
+.head{
+    text-align: center;
+    padding-top: 30px;
+    color: azure;
+}
+p{
+    text-align: center;
+    color: #ccc;
+    font-style: oblique;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.container-info{
+    background-color: azure;
+    margin: 40px;
+    padding: 20px;
+    width:100px;
+    text-align: end;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.container-info img{
+    width:90px;
+    height:90px;
+    border-radius: 20px;
+    padding: 3px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+.container-info h3{
+    margin-top: 2px;
+}
+
+.container-info:hover{
+    box-shadow: 2px 2px 2px 2px #ccc;
+    text-shadow: 2px 2px 5px #ccc;
+}

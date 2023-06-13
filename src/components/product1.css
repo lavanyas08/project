@@ -1,0 +1,48 @@
+.apple
+{
+  width:400px;
+  height: 500px;
+  top: 70px;
+  position: fixed;
+
+
+}
+
+.apple1{
+  color: black;
+  margin-left: 550px;
+}
+.apple2{
+  color: black;
+  margin-left: 550px;
+  margin-right: 50px;
+}
+.apple3{
+  color: black;
+  margin-left: 550px;
+}
+.apple4{
+  color: black;
+  margin-left: 550px;
+  
+}
+.apple8{
+  color: black;
+  margin-left: 550px;
+}
+
+.apple10{
+  margin-left: 550px;
+}
+.rem {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: large;
+    color: rgb(91, 128, 128);
+    background-color: white;
+    padding: 5px 10px;
+  }
+  .ap{
+    border: 5px solid black;
+  }
